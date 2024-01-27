@@ -1,0 +1,110 @@
+.style {
+    font-family: Georgia;
+    background-color: rgb(162, 224, 255);
+}
+
+.header {
+  min-width: 550px;
+  height: 190px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  background: url(hat.jpg);
+  display: flex;
+  background-size: cover;
+}
+
+.header_text {
+  margin-top: 120px;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text {
+  margin-top: 0px;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img_pos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img_par {
+  display: flex;
+  float: left;
+}
+
+.img_ch {
+  width: 500px;
+  height: 500px;
+  border-radius: 5%;
+}
+
+.img {
+  border-radius: 5%;
+  display: block;
+}
+
+.alignment {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.block {
+  margin: 10px;
+  border-style:solid;
+  padding-left: 15px;
+  border-color: rgb(99,137,247);
+  box-shadow: 0 0 20px rgb(99,137,247);
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  max-width: 450px;
+}
+
+.block_name {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.img_block{
+  border-radius: 4px;
+  display: block;
+  width: 473px;
+  height: 473px;
+}
+
+
+.footer {
+  background-color: rgb(99,137,247);
+  padding-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  color:black;
+}
