@@ -49,8 +49,8 @@
 }
 
 .img_ch {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 5%;
 }
 
@@ -81,7 +81,7 @@
   border-radius: 25px;
   margin-bottom: 20px;
   padding-right: 40px;
-  max-width: 450px;
+  max-width: 200px;
 }
 
 .block_name {
@@ -95,8 +95,8 @@
 .img_block{
   border-radius: 4px;
   display: block;
-  width: 473px;
-  height: 473px;
+  width: 220px;
+  height: 220px;
 }
 
 
